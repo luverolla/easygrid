@@ -13,4 +13,4 @@ Between columns and between rows there are two different gap sizes. Both are set
 
 This repository includes a `demo.html` file that shows how to use the utility. The style included in that file is to be intended only for demo purposes.
 
-The key of this utility stands in the `data-eg-grid` attribute, applied on the grid container. It accept a string of values representing the width of each cell measured as said above. Rows are separated by a semicolon `;`, cells are separated by a comma `,`. The number of children with `data-sg-item` attribute MUST match with the value of `data-sg-grid` attribute. Otherwise, cells in excess will not be rendered and there could be unexcepted behaviours.
+The key of this utility stands in the `data-eg-grid` attribute, applied on the grid container. It accept a string of values representing the width of each cell measured as said above. Rows are separated by a semicolon `;`, cells are separated by a comma `,`. The number of children with `data-eg-item` attribute MUST match with the value of `data-eg-grid` attribute. Otherwise, cells in excess will not be rendered and there could be unexcepted behaviours.
