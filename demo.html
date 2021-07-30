@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="easygrid.css" />
+        <style>
+            * {box-sizing: border-box;}
+            .box {height: 100px;}
+            .blue {background-color: blue;}
+            .green {background-color:green;}
+            .red {background-color:red;}
+            .orange {background-color: orange;}
+        </style>
+    </head>
+    <body>
+        <div data-eg-grid="3,3;4,6">
+            <div data-eg-cell class="box blue"></div>
+            <div data-eg-cell class="box green"></div>
+            <div data-eg-cell class="box red"></div>
+            <div data-eg-cell class="box orange"></div>
+        </div>
+
+        <script src="easygrid.js"></script>
+    </body>
+</html>
